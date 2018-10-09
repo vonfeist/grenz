@@ -1,0 +1,14 @@
+@import '~assets/sass/now-ui-kit/variables';
+
+.footer {
+  background-color: $primary-color;
+  text-align: center;
+  color: $white-color;
+  margin-top:80px;
+
+  a {
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}

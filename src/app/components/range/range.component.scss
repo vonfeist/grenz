@@ -1,0 +1,44 @@
+@import '~assets/sass/now-ui-kit/variables';
+
+.btn {
+  background-color: $primary-color;
+}
+
+.card {
+  display: block;
+  margin-bottom: 30px;
+
+  .card-img-top {
+    padding: 0;
+  }
+
+  &.is-odd {
+    .card-img-top {
+      float: right;
+    }
+
+    .card-body {
+      float: left;
+    }
+  }
+
+  &.is-even {
+    .card-img-top {
+      float: left;
+    }
+
+    .card-body {
+      float: right;
+    }
+
+    .btn {
+      float: right;
+    }
+  }
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}

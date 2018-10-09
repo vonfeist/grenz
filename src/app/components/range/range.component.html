@@ -1,0 +1,14 @@
+<div class="card-deck">
+  <div class="col-12" *ngFor="let range of rangeOptions; let odd=odd; let even=even;">
+    <div class="card"
+         [ngClass]="{ 'is-odd': odd, 'is-even': even }">
+      <img class="card-img-top col-5" src="{{range.image}}" alt="{{range.header}}">
+      <div class="card-body col-7">
+        <div class="card-title">{{ range.header }}</div>
+        <p class="card-text">{{ range.text }}</p>
+        <a class="btn btn-primary" [href]="range.links">{{range.linkText}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+

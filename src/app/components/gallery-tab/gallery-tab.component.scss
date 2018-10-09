@@ -1,0 +1,9 @@
+@import '~assets/sass/now-ui-kit/variables';
+
+
+.nav-link{
+
+  &active {
+    color: $black-bg;
+  }
+}

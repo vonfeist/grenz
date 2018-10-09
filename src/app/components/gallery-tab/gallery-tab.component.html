@@ -1,0 +1,23 @@
+<ngb-tabset [justify]="'center'" type="pills" class="nav nav-pills nav-pills-primary  nav-pills-just-icons justify-content-center tab-space">
+  <ngb-tab *ngFor="let tab of galleryTabs, index as i" [id]="tab.id">
+    <ng-template ngbTabTitle>
+      <p>{{tab.title}}</p>
+    </ng-template>
+    <ng-template ngbTabContent>
+      <div class="row">
+        <div class="col-md-10 ml-auto mr-auto">
+          <div class="row collections">
+            <div class="col-md-6">
+              <img src="{{tab.images[0]}}" alt="" class="img-raised">
+              <img src="{{tab.images[1]}}" alt="" class="img-raised">
+            </div>
+            <div class="col-md-6">
+              <img src="{{tab.images[2]}}" alt="" class="img-raised">
+              <img src="{{tab.images[3]}}" alt="" class="img-raised">
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </ngb-tab>
+</ngb-tabset>

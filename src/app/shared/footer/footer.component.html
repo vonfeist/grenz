@@ -1,0 +1,24 @@
+<footer class="footer footer-default">
+  <div class="container">
+    <div class="col-md-12 col-6 text-center">
+      <h5 class="white-text">Friseur Grenz</h5>
+      <p class="grey-text text-lighten-4">Ihr Familienfriseur aus Marzahn.</p>
+    </div>
+    <div class="row">
+      <div class="copyright col-2">
+        &copy; {{data | date: 'yyyy'}}, Friseur Grenz
+      </div>
+      <nav class="col-md-10 col-6 text-right">
+        <ul>
+          <li><a [routerLink]="'/team'">Team</a></li>
+          <li><a [routerLink]="'/news'">News</a></li>
+          <li><a [routerLink]="'/kontakt'">Kontakt</a></li>
+          <li><a [routerLink]="'/gallerie'">Gallerie</a></li>
+          <li><a [routerLink]="'/impressum'">Impressum</a></li>
+          <li><a [routerLink]="'/datenschutz'">Datenschutz</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>

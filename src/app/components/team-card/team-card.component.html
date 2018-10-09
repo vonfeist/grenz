@@ -1,0 +1,16 @@
+<div class="nav-tabs-navigation">
+  <div class="nav-tabs-wrapper">
+    <ngb-tabset [justify]="'center'" class="text-center">
+      <ngb-tab *ngFor="let member of teamOptions">
+        <ng-template ngbTabTitle>
+          <img class="img-raised rounded img-fluid" src="{{member.image}}" width="150px" height="250px">
+          <div>{{ member.name }}</div>
+        </ng-template>
+        <ng-template ngbTabContent>
+          <h4>{{ member.position }}</h4>
+          <p> {{member.text}}</p>
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
+  </div>
+</div>
