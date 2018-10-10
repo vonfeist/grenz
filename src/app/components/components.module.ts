@@ -14,7 +14,7 @@ import {ComponentsComponent} from './components.component';
 import {NotificationComponent} from './notification/notification.component';
 import {NgbdModalBasic} from './modal/modal.component';
 import {SliderComponent} from './slider/slider.component';
-import { NewsBlogComponent } from './news-blog/news-blog.component';
+
 
 @NgModule({
   imports: [
@@ -34,7 +34,7 @@ import { NewsBlogComponent } from './news-blog/news-blog.component';
     NotificationComponent,
     NgbdModalBasic,
     SliderComponent,
-    NewsBlogComponent,
+
   ],
   exports: [ComponentsComponent]
 })

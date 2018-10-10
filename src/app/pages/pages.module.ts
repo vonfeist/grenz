@@ -22,6 +22,7 @@ import {OffersComponent} from './offers/offers.component';
 import {RangeComponent} from '../components/range/range.component';
 import {ContactComponent} from './contact/contact.component';
 import {ContactFormComponent} from '../components/contact-form/contact-form.component';
+import {NewsBlogComponent} from '../components/news-blog/news-blog.component';
 
 
 
@@ -51,7 +52,8 @@ import {ContactFormComponent} from '../components/contact-form/contact-form.comp
     OffersComponent,
     RangeComponent,
     ContactComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    NewsBlogComponent
   ]
 })
 export class PagesModule {
