@@ -4,38 +4,27 @@
   background-color: $primary-color;
 }
 
-.card {
-  display: block;
-  margin-bottom: 30px;
+.image {
+  padding: 30px;
+  padding-top: 10px;
 
-  .card-img-top {
-    padding: 0;
+  &-left {
+    float: left;
   }
 
-  &.is-odd {
-    .card-img-top {
-      float: right;
-    }
-
-    .card-body {
-      float: left;
-    }
-  }
-
-  &.is-even {
-    .card-img-top {
-      float: left;
-    }
-
-    .card-body {
-      float: right;
-    }
-
-    .btn {
-      float: right;
-    }
+  &-right {
+    float: right;
   }
 }
+
+.card {
+  margin-bottom: 30px;
+
+  &-row {
+    display: block;
+  }
+}
+
 
 .card-title {
   font-size: 18px;

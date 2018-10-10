@@ -34,7 +34,7 @@ import { NewsBlogComponent } from './news-blog/news-blog.component';
     NotificationComponent,
     NgbdModalBasic,
     SliderComponent,
-    NewsBlogComponent
+    NewsBlogComponent,
   ],
   exports: [ComponentsComponent]
 })

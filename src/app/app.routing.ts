@@ -13,6 +13,7 @@ import {ImpressumComponent} from './pages/impressum/impressum.component';
 import {DatenschutzComponent} from './pages/datenschutz/datenschutz.component';
 import {GalleryComponent} from './pages/gallery/gallery.component';
 import {OffersComponent} from './pages/offers/offers.component';
+import {ContactComponent} from './pages/contact/contact.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'index', pathMatch: 'full'},
@@ -25,7 +26,8 @@ const routes: Routes = [
   {path: 'gallerie', component: GalleryComponent},
   {path: 'impressum', component: ImpressumComponent},
   {path: 'datenschutz', component: DatenschutzComponent},
-  {path: 'leistungen', component: OffersComponent}
+  {path: 'leistungen', component: OffersComponent},
+  {path: 'kontakt', component: ContactComponent},
 
 
 ];

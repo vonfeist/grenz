@@ -20,6 +20,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import {GalleryTabComponent} from '../components/gallery-tab/gallery-tab.component';
 import {OffersComponent} from './offers/offers.component';
 import {RangeComponent} from '../components/range/range.component';
+import {ContactComponent} from './contact/contact.component';
 
 
 
@@ -48,6 +49,7 @@ import {RangeComponent} from '../components/range/range.component';
     GalleryTabComponent,
     OffersComponent,
     RangeComponent,
+    ContactComponent
   ]
 })
 export class PagesModule {
