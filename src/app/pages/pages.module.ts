@@ -21,6 +21,7 @@ import {GalleryTabComponent} from '../components/gallery-tab/gallery-tab.compone
 import {OffersComponent} from './offers/offers.component';
 import {RangeComponent} from '../components/range/range.component';
 import {ContactComponent} from './contact/contact.component';
+import {ContactFormComponent} from '../components/contact-form/contact-form.component';
 
 
 
@@ -49,7 +50,8 @@ import {ContactComponent} from './contact/contact.component';
     GalleryTabComponent,
     OffersComponent,
     RangeComponent,
-    ContactComponent
+    ContactComponent,
+    ContactFormComponent
   ]
 })
 export class PagesModule {
