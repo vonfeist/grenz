@@ -46,7 +46,7 @@ export class TeamCardComponent implements OnInit {
             image: 'http://via.placeholder.com/150x200',
             position: 'Unsere Azubine',
             text: 'Sie ist seit 2016 bei uns und ist mittlerweile im dritten Lehrjahr, also mittlerweile ein starkes Mitglied' +
-            'unseres Teams. Insbesondere Hochsteckfrisuren und Flechtelemente gehören zu ihrem Spezielgebiet.',
+            'unseres Teams. Insbesondere Hochsteckfrisuren und Flechtelemente gehören zu ihrem Spezialgebiet.',
         },
     ];
   }

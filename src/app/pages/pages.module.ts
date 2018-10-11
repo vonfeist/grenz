@@ -8,7 +8,6 @@ import {AgmCoreModule} from '@agm/core';
 
 import {LandingComponent} from './landing/landing.component';
 import {LoginComponent} from './login/login.component';
-import {ProfileComponent} from './profile/profile.component';
 import {PagesComponent} from './pages.component';
 
 import {TeamCardComponent} from '../components/team-card/team-card.component';
@@ -23,7 +22,7 @@ import {RangeComponent} from '../components/range/range.component';
 import {ContactComponent} from './contact/contact.component';
 import {ContactFormComponent} from '../components/contact-form/contact-form.component';
 import {NewsBlogComponent} from '../components/news-blog/news-blog.component';
-
+import {LightboxModule} from ''
 
 
 @NgModule({
@@ -41,7 +40,6 @@ import {NewsBlogComponent} from '../components/news-blog/news-blog.component';
     LandingComponent,
     LoginComponent,
     PagesComponent,
-    ProfileComponent,
     TeamCardComponent,
     TeamPageComponent,
     NewsComponent,
