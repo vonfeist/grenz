@@ -10,6 +10,8 @@ import {PagesModule} from './pages/pages.module';
 import {AppComponent} from './app.component';
 import {NavbarComponent} from './shared/navbar/navbar.component';
 import {FooterComponent} from './shared/footer/footer.component';
+import {JsonReaderService} from './services/json-reader.service';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -26,8 +28,9 @@ import {FooterComponent} from './shared/footer/footer.component';
     AppRoutingModule,
     ComponentsModule,
     PagesModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [JsonReaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

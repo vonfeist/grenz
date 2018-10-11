@@ -8,7 +8,7 @@
         <div class="col-md-12 ml-auto mr-auto">
           <div class="row collections">
             <div class="col-md-3" *ngFor="let image of tab.images, index as i">
-              <img src="{{image}}" alt="" class="img-raised">
+              <img [src]="image" alt="" class="img-raised" (click)="open(i)">
             </div>
           </div>
         </div>

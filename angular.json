@@ -27,7 +27,8 @@
               "node_modules/angular2-lightbox/lightbox.css"
             ],
             "scripts": [
-              "node_modules/rellax/rellax.min.js"
+              "node_modules/rellax/rellax.min.js",
+              "node_modules/angular2-lightbox/index.js"
             ]
           },
           "configurations": {

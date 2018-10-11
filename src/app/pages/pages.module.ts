@@ -22,7 +22,7 @@ import {RangeComponent} from '../components/range/range.component';
 import {ContactComponent} from './contact/contact.component';
 import {ContactFormComponent} from '../components/contact-form/contact-form.component';
 import {NewsBlogComponent} from '../components/news-blog/news-blog.component';
-import {LightboxModule} from ''
+import {LightboxModule} from 'angular2-lightbox';
 
 
 @NgModule({
@@ -35,6 +35,7 @@ import {LightboxModule} from ''
     AgmCoreModule.forRoot({
       apiKey: 'YOUR_KEY_HERE'
     }),
+    LightboxModule
   ],
   declarations: [
     LandingComponent,

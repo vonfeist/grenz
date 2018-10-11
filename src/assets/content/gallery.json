@@ -1,0 +1,269 @@
+{
+  "Gallery": [
+    {
+      "title": "Unser Friseursalon",
+      "images": [
+        {
+          "caption": "Salon 1",
+          "src": "assets/img/gallery/friseursalon/salon_1.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_1.jpg"
+        },
+        {
+          "caption": "Salon 2",
+          "src": "assets/img/gallery/friseursalon/salon_2.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_2.jpg"
+        },
+        {
+          "caption": "Salon 3",
+          "src": "assets/img/gallery/friseursalon/salon_3.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_3.jpg"
+        },
+        {
+          "caption": "Salon 4",
+          "src": "assets/img/gallery/friseursalon/salon_4.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_4.jpg"
+        },
+        {
+          "caption": "Salon 5",
+          "src": "assets/img/gallery/friseursalon/salon_5.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_5.jpg"
+        },
+        {
+          "caption": "Salon 6",
+          "src": "assets/img/gallery/friseursalon/salon_6.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_6.jpg"
+        },
+        {
+          "caption": "Salon 7",
+          "src": "assets/img/gallery/friseursalon/salon_7.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_7.jpg"
+        },
+        {
+          "caption": "Salon 8",
+          "src": "assets/img/gallery/friseursalon/salon_8.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_8.jpg"
+        },
+        {
+          "caption": "Salon 9",
+          "src": "assets/img/gallery/friseursalon/salon_9.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_9.jpg"
+        },
+        {
+          "caption": "Salon 10",
+          "src": "assets/img/gallery/friseursalon/salon_10.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_10.jpg"
+        },
+        {
+          "caption": "Salon 11",
+          "src": "assets/img/gallery/friseursalon/salon_11.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_11.jpg"
+        },
+        {
+          "caption": "Salon 12",
+          "src": "assets/img/gallery/friseursalon/salon_12.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_12.jpg"
+        },
+        {
+          "caption": "Salon 13",
+          "src": "assets/img/gallery/friseursalon/salon_13.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_13.jpg"
+        },
+        {
+          "caption": "Salon 14",
+          "src": "assets/img/gallery/friseursalon/salon_14.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_14.jpg"
+        },
+        {
+          "caption": "Salon 15",
+          "src": "assets/img/gallery/friseursalon/salon_15.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_15.jpg"
+        },
+        {
+          "caption": "Salon 16",
+          "src": "assets/img/gallery/friseursalon/salon_16.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_16.jpg"
+        },
+        {
+          "caption": "Salon 17",
+          "src": "assets/img/gallery/friseursalon/salon_17.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_17.jpg"
+        },
+        {
+          "caption": "Salon 18",
+          "src": "assets/img/gallery/friseursalon/salon_18.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_18.jpg"
+        },
+        {
+          "caption": "Salon 19",
+          "src": "assets/img/gallery/friseursalon/salon_19.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_19.jpg"
+        },
+        {
+          "caption": "Salon 20",
+          "src": "assets/img/gallery/friseursalon/salon_20.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_20.jpg"
+        },
+        {
+          "caption": "Salon 21",
+          "src": "assets/img/gallery/friseursalon/salon_21.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_21.jpg"
+        },
+        {
+          "caption": "Salon 22",
+          "src": "assets/img/gallery/friseursalon/salon_22.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_22.jpg"
+        },
+        {
+          "caption": "Salon 23",
+          "src": "assets/img/gallery/friseursalon/salon_23.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_23.jpg"
+        },
+        {
+          "caption": "Salon 24",
+          "src": "assets/img/gallery/friseursalon/salon_24.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_24.jpg"
+        },
+        {
+          "caption": "Salon 25",
+          "src": "assets/img/gallery/friseursalon/salon_25.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_25.jpg"
+        },
+        {
+          "caption": "Salon 26",
+          "src": "assets/img/gallery/friseursalon/salon_26.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_26.jpg"
+        },
+        {
+          "caption": "Salon 27",
+          "src": "assets/img/gallery/friseursalon/salon_27.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_27.jpg"
+        },
+        {
+          "caption": "Salon 28",
+          "src": "assets/img/gallery/friseursalon/salon_28.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_28.jpg"
+        },
+        {
+          "caption": "Salon 29",
+          "src": "assets/img/gallery/friseursalon/salon_29.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_29.jpg"
+        },
+        {
+          "caption": "Salon 30",
+          "src": "assets/img/gallery/friseursalon/salon_30.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_30.jpg"
+        },
+        {
+          "caption": "Salon 31",
+          "src": "assets/img/gallery/friseursalon/salon_31.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_31.jpg"
+        },
+        {
+          "caption": "Salon 32",
+          "src": "assets/img/gallery/friseursalon/salon_32.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_32.jpg"
+        },
+        {
+          "caption": "Salon 33",
+          "src": "assets/img/gallery/friseursalon/salon_33.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_33.jpg"
+        },
+        {
+          "caption": "Salon 34",
+          "src": "assets/img/gallery/friseursalon/salon_34.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_34.jpg"
+        },
+        {
+          "caption": "Salon 35",
+          "src": "assets/img/gallery/friseursalon/salon_35.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_35.jpg"
+        },
+        {
+          "caption": "Salon 36",
+          "src": "assets/img/gallery/friseursalon/salon_36.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_36.jpg"
+        },
+        {
+          "caption": "Salon 37",
+          "src": "assets/img/gallery/friseursalon/salon_37.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_37.jpg"
+        },
+        {
+          "caption": "Salon 38",
+          "src": "assets/img/gallery/friseursalon/salon_38.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_38.jpg"
+        },
+        {
+          "caption": "Salon 39",
+          "src": "assets/img/gallery/friseursalon/salon_39.jpg",
+          "thumb": "assets/img/gallery/friseursalon/salon_39.jpg"
+        }
+      ],
+      "id": "salon"
+    },
+    {
+      "title": "Kurzhaarfrisuren",
+      "images": [
+        {
+          "caption": "Salon 1",
+          "src": "assets/img/bg1.jpg",
+          "thumb": "assets/img/bg1.jpg"
+        },
+        {
+          "caption": "Salon 2",
+          "src": "assets/img/bg8.jpg",
+          "thumb": "assets/img/bg8.jpg"
+        }
+      ],
+      "id": "lang"
+    },
+    {
+      "title": "Kurzhaarfrisuren",
+      "images": [
+        {
+          "caption": "Salon 1",
+          "src": "assets/img/bg1.jpg",
+          "thumb": "assets/img/bg1.jpg"
+        },
+        {
+          "caption": "Salon 2",
+          "src": "assets/img/bg8.jpg",
+          "thumb": "assets/img/bg8.jpg"
+        }
+      ],
+      "id": "hoch"
+    },
+    {
+      "title": "Kurzhaarfrisuren",
+      "images": [
+        {
+          "caption": "Salon 1",
+          "src": "assets/img/bg1.jpg",
+          "thumb": "assets/img/bg1.jpg"
+        },
+        {
+          "caption": "Salon 2",
+          "src": "assets/img/bg8.jpg",
+          "thumb": "assets/img/bg8.jpg"
+        }
+      ],
+      "id": "runter"
+    },
+    {
+      "title": "Kurzhaarfrisuren",
+      "images": [
+        {
+          "caption": "Salon 1",
+          "src": "assets/img/bg1.jpg",
+          "thumb": "assets/img/bg1.jpg"
+        },
+        {
+          "caption": "Salon 2",
+          "src": "assets/img/bg8.jpg",
+          "thumb": "assets/img/bg8.jpg"
+        }
+      ],
+      "id": "links"
+    }
+  ]
+}
