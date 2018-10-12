@@ -1,6 +1,30 @@
 @import '~assets/sass/now-ui-kit/variables';
 
 
+:host {
+  background: green;
+
+  ::ng-deep {
+    background: green;
+
+
+  }
+}
+
+ngb-modal-window {
+  .modal-dialog {
+
+    @media (min-width: 575px) {
+      max-width: 80vw;
+      max-height: 80vh;
+    }
+  }
+
+  .modal-content {
+    background: green;
+  }
+}
+
 .nav-link{
 
   &active {

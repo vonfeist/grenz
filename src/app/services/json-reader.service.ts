@@ -1,18 +1,24 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {Observable} from 'rxjs';
+import {map} from 'rxjs/operators';
 
 @Injectable()
-
 export class JsonReaderService {
 
+  galleryJson = 'assets/content/gallery.json';
+  teamJson = 'assets/content/team.json';
+
   constructor(private http: HttpClient) {
-    this.getGalleryJSON().subscribe(data => {
-      console.log(data)
-    });
+    this.getGallery().subscribe(data => {
+      console.log(data);
+    })
   }
 
-  public getGalleryJSON(): Observable<any> {
-    return this.http.get("assets/content/gallery.json")
+  getGallery() {
+    return this.http.get(this.galleryJson);
+  }
+
+  getTeam() {
+    return this.http.get(this.teamJson);
   }
 }

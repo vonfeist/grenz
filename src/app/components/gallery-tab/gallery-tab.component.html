@@ -1,4 +1,5 @@
-<ngb-tabset [justify]="'center'" type="pills" class="nav nav-pills nav-pills-primary  nav-pills-just-icons justify-content-center tab-space">
+<ngb-tabset [justify]="'center'" type="pills"
+            class="nav nav-pills nav-pills-primary  nav-pills-just-icons justify-content-center tab-space">
   <ngb-tab *ngFor="let tab of galleryTabs" [id]="tab.id">
     <ng-template ngbTabTitle>
       <p>{{tab.title}}</p>
@@ -8,7 +9,7 @@
         <div class="col-md-12 ml-auto mr-auto">
           <div class="row collections">
             <div class="col-md-3" *ngFor="let image of tab.images, index as i">
-              <img [src]="image" alt="" class="img-raised" (click)="open(i)">
+              <img [src]="image.thumb" alt="" class="img-raised" (click)="openModal(content, image.src)">
             </div>
           </div>
         </div>
@@ -16,3 +17,18 @@
     </ng-template>
   </ngb-tab>
 </ngb-tabset>
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <img [src]="currentImage">
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+  </div>
+</ng-template>

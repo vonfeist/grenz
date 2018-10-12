@@ -14,9 +14,11 @@ export class SliderComponent implements OnInit {
 
   constructor(carouselConfig: NgbCarouselConfig) {
     carouselConfig.keyboard = true;
+    carouselConfig.wrap = true;
   }
 
   ngOnInit() {
+
   }
 
 }

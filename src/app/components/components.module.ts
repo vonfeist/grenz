@@ -33,8 +33,7 @@ import {SliderComponent} from './slider/slider.component';
     NucleoiconsComponent,
     NotificationComponent,
     NgbdModalBasic,
-    SliderComponent,
-
+    SliderComponent
   ],
   exports: [ComponentsComponent]
 })

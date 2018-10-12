@@ -1,10 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {Lightbox} from 'angular2-lightbox';
 import {JsonReaderService} from '../../services/json-reader.service';
-
-export interface GalleryTab {
-  title: string;
-}
+import {ModalDismissReasons, NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-gallery-tab',
@@ -13,22 +9,39 @@ export interface GalleryTab {
 })
 export class GalleryTabComponent implements OnInit {
 
-  public galleryTabs = [];
-  public salonAlbum = [];
+  public galleryTabs;
+  closeResult: string;
+  currentImage: string;
 
   constructor(
-    private lightbox: Lightbox,
-    private jsonService: JsonReaderService) {
+    private jsonService: JsonReaderService,
+    private modal: NgbModal
+  ) { }
+
+  openModal(content, imageSource) {
+    this.currentImage = imageSource;
+    this.modal.open(content).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+    });
   }
 
-  openSalon(index: number): void {
-    this.lightbox.open(this.salonAlbum, index);
+  private getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return  `with: ${reason}`;
+    }
   }
+
+
 
   ngOnInit() {
-
-    this.jsonService.getGalleryJSON().subscribe(data => {
+    this.jsonService.getGallery().subscribe(data  => {
       this.galleryTabs = data;
-    })
+    });
   }
 }

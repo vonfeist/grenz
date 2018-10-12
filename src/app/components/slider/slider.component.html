@@ -1,7 +1,7 @@
 <div class="col-12">
-  <ngb-carousel>
+  <ngb-carousel #carousel activeId="" (slide)="showCarousel()">
     <ng-template ngbSlide>
-      <img class="d-block" src="assets/img/bg1.jpg" alt="First slide">
+      <img class="d-block" src="assets/img/bg4.jpg" alt="First slide">
       <div class="carousel-caption">
         <h1 class="title">Willkommen auf unserer Webseite</h1>
         <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
@@ -9,7 +9,7 @@
       </div>
     </ng-template>
     <ng-template ngbSlide>
-      <img class="d-block" src="assets/img/bg3.jpg" alt="Second slide">
+      <img class="d-block" src="assets/img/bg4.jpg" alt="Second slide">
       <div class="carousel-caption">
         <h1 class="title">Färbe Tag</h1>
         <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
