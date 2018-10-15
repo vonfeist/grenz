@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbModalModule, NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
 import {NouisliderModule} from 'ng2-nouislider';
 import {JwBootstrapSwitchNg2Module} from 'jw-bootstrap-switch-ng2';
@@ -14,6 +14,7 @@ import {ComponentsComponent} from './components.component';
 import {NotificationComponent} from './notification/notification.component';
 import {NgbdModalBasic} from './modal/modal.component';
 import {SliderComponent} from './slider/slider.component';
+import {ModalModule} from 'ng-bootstrap';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {SliderComponent} from './slider/slider.component';
     NgbModule,
     NouisliderModule,
     RouterModule,
-    JwBootstrapSwitchNg2Module
+    JwBootstrapSwitchNg2Module,
+    NgbModalModule
   ],
   declarations: [
     ComponentsComponent,
@@ -33,9 +35,9 @@ import {SliderComponent} from './slider/slider.component';
     NucleoiconsComponent,
     NotificationComponent,
     NgbdModalBasic,
-    SliderComponent
+    SliderComponent,
   ],
-  exports: [ComponentsComponent]
+  exports: [ComponentsComponent, NgbdModalBasic]
 })
 export class ComponentsModule {
 }
