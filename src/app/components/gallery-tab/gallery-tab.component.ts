@@ -10,10 +10,35 @@ import {ModalDismissReasons, NgbModal} from '@ng-bootstrap/ng-bootstrap';
 export class GalleryTabComponent implements OnInit {
 
   public galleryTabs;
+  closeResult: string;
+  currentImage: string;
+  caption: string;
 
   constructor(
     private jsonService: JsonReaderService,
+    private modal: NgbModal
   ) { }
+
+  openModal(content, imageSource) {
+    this.currentImage = imageSource['src'];
+    this.caption = imageSource['caption'];
+    this.modal.open(content).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+    });
+  }
+
+  private getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return  `with: ${reason}`;
+    }
+  }
+
 
 
   ngOnInit() {

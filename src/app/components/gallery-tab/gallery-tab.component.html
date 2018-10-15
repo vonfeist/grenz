@@ -8,8 +8,8 @@
       <div class="row">
         <div class="col-md-12 ml-auto mr-auto">
           <div class="row collections">
-            <div class="col-md-3" *ngFor="let image of tab.images, index as i">
-              <img [src]="image.thumb" alt="" class="img-raised" (click)="openModal(content, image.src)">
+            <div class="col-md-3 gallery-image" *ngFor="let image of tab.images, index as i">
+              <img [src]="image.thumb" alt="" class="img-raised" (click)="openModal(content, image)">
             </div>
           </div>
         </div>
@@ -20,7 +20,7 @@
 
 <ng-template #content let-modal>
   <div class="modal-header">
-    <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+    <h4 class="modal-title" id="modal-basic-title">{{caption}}</h4>
     <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
       <span aria-hidden="true">&times;</span>
     </button>
