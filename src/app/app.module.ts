@@ -16,27 +16,29 @@ import {FooterComponent} from './shared/footer/footer.component';
 import {JsonReaderService} from './services/json-reader.service';
 import {HttpClientModule} from '@angular/common/http';
 import {ModalGalleryModule} from 'angular-modal-gallery';
+import {MapComponent} from './components/map/map.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    FooterComponent
-  ],
-  imports: [
-    BrowserAnimationsModule,
-    NgbModule.forRoot(),
-    FormsModule,
-    RouterModule,
-    AppRoutingModule,
-    ComponentsModule,
-    PagesModule,
-    HttpClientModule,
-    ModalGalleryModule.forRoot()
-  ],
-  providers: [JsonReaderService],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        NavbarComponent,
+        FooterComponent,
+        MapComponent
+    ],
+    imports: [
+        BrowserAnimationsModule,
+        NgbModule.forRoot(),
+        FormsModule,
+        RouterModule,
+        AppRoutingModule,
+        ComponentsModule,
+        PagesModule,
+        HttpClientModule,
+        ModalGalleryModule.forRoot(),
+    ],
+    providers: [JsonReaderService],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }

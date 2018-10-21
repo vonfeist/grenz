@@ -1,16 +1,6 @@
 @import '~assets/sass/now-ui-kit/variables';
 
 
-:host {
-  background: green;
-
-  ::ng-deep {
-    background: green;
-
-
-  }
-}
-
 .gallery-image {
   margin-bottom: 20px;
 }
