@@ -5,7 +5,6 @@ import {NouisliderModule} from 'ng2-nouislider';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {JwBootstrapSwitchNg2Module} from 'jw-bootstrap-switch-ng2';
 
-import {LandingComponent} from './landing/landing.component';
 import {LoginComponent} from './login/login.component';
 import {PagesComponent} from './pages.component';
 
@@ -32,7 +31,6 @@ import {NewsBlogComponent} from '../components/news-blog/news-blog.component';
         JwBootstrapSwitchNg2Module,
     ],
     declarations: [
-        LandingComponent,
         LoginComponent,
         PagesComponent,
         TeamCardComponent,
