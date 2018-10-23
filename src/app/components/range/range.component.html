@@ -1,12 +1,15 @@
 <div class="card-deck">
   <div class="row card-row" *ngFor="let range of rangeOptions; let odd=odd; let even=even;">
-    <div class="col-4 image" [ngClass]="{ 'image-left': odd, 'image-right': even }">
-      <img class="card-img-top rounded-circle img-raised" src="{{range.image}}" alt="{{range.header}}">
+    <div class="col-4 image image-left">
+      <img class="card-img-top img-raised" src="{{range.image}}" alt="{{range.header}}">
     </div>
     <div class="card col-8" >
       <div class="card-body">
         <div class="card-title">{{ range.header }}</div>
         <p class="card-text">{{ range.text }}</p>
+        <ul *ngFor="let leistungen of range.list">
+          <li>{{leistungen}}</li>
+        </ul>
         <a class="btn btn-primary" [href]="range.links">{{range.linkText}}</a>
       </div>
     </div>

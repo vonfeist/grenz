@@ -18,39 +18,12 @@ export class NewsBlogComponent implements OnInit {
         icon: 'success',
         topic: 'Neuerung',
         title: 'Unser Webseiten Relaunch',
-        text: 'Seid über 20 Jahren zaubern wir nun schon außergewöhnliche Frisuren mit Ihnen. Immer am Puls der Zeit bilden wir\n' +
-          'uns stetig für Sie weiter und hoffen Sie auch in Zukunft bei uns begrüßen zu können. Aus diesem Anlass haben wir unseren\n' +
-          'Internetauftritt erneuert. Hier finden sie Informationen über unseren Laden, können sich inspirieren lassen oder uns über\n' +
-          'die Kontaktform kontaktieren. Wir wünschen Ihnen viel Spaß mit unserer Webseite.',
-        image: 'assets/img/eva.jpg',
-        date: '18.Oktober 2018',
-        author: 'Katrin Grenz'
-      },
-      {
-        icon: 'danger',
-        topic: 'Topic',
-        title: 'A title',
-        text: 'Whatever comes up',
-        image: 'assets/img/eva.jpg',
-        date: '18.Oktober 2018',
-        author: 'Katrin Grenz'
-      },
-      {
-        icon: 'success',
-        topic: 'Topic',
-        title: 'A title',
-        text: 'Whatever comes up',
-        image: 'assets/img/eva.jpg',
-        date: '18.Oktober 2018',
-        author: 'Katrin Grenz'
-      },
-      {
-        icon: 'info',
-        topic: 'Topic',
-        title: 'A title',
-        text: 'Whatever comes up',
-        image: 'assets/img/eva.jpg',
-        date: '18.Oktober 2018',
+        text: 'Seid über 20 Jahren zaubern wir nun schon außergewöhnliche Frisuren mit Euch. Immer am Puls der Zeit bilden wir\n' +
+          'uns stetig für euch weiter und hoffen euch auch in Zukunft bei uns begrüßen zu können. Aus diesem Anlass haben wir unseren\n' +
+          'Internetauftritt erneuert. Hier findet ihr Informationen über unseren Laden, könnt euch inspirieren lassen oder uns über\n' +
+          'die Kontaktform kontaktieren. Wir wünschen euch viel Spaß mit unserer Webseite.',
+        image: 'assets/img/gallery/news-1.jpg',
+        date: '23.Oktober 2018',
         author: 'Katrin Grenz'
       },
     ]

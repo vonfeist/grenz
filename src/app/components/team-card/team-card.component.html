@@ -3,7 +3,7 @@
     <ngb-tabset [justify]="'center'" class="text-center">
       <ngb-tab *ngFor="let member of teamOptions">
         <ng-template ngbTabTitle>
-          <img class="img-raised rounded img-fluid" src="{{member.image}}" width="150px" height="250px">
+          <img class="img-raised img-fluid" src="{{member.image}}" width="150px" height="250px">
           <div>{{ member.name }}</div>
         </ng-template>
         <ng-template ngbTabContent>
