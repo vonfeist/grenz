@@ -44,7 +44,8 @@ import {AgmCoreModule, GoogleMapsAPIWrapper} from '@agm/core';
         NgbdModalBasic,
         SliderComponent,
         HomeRangeComponent,
-        OpenContactMapHubComponent
+        OpenContactMapHubComponent,
+        MapComponent
     ],
     providers: [
         GoogleMapsAPIWrapper

@@ -16,7 +16,6 @@ import {FooterComponent} from './shared/footer/footer.component';
 import {JsonReaderService} from './services/json-reader.service';
 import {HttpClientModule} from '@angular/common/http';
 import {ModalGalleryModule} from 'angular-modal-gallery';
-import {MapComponent} from './components/map/map.component';
 
 
 @NgModule({
@@ -24,7 +23,6 @@ import {MapComponent} from './components/map/map.component';
         AppComponent,
         NavbarComponent,
         FooterComponent,
-        MapComponent
     ],
     imports: [
         BrowserAnimationsModule,
