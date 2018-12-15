@@ -1,33 +1,42 @@
-<div class="input-group input-lg" [ngClass]="{'input-group-focus':focus===true}">
-  <div class="input-group-prepend">
+<form [formGroup]="form" (ngSubmit)="processForm()">
+    <div class="field">
+        <div class="input-group input-lg" [ngClass]="{'input-group-focus':focus===true}">
+            <div class="input-group-prepend">
                       <span class="input-group-text">
                           <i class="now-ui-icons users_circle-08"></i>
                       </span>
-  </div>
-  <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false">
-</div>
-<div class="input-group input-lg" [ngClass]="{'input-group-focus':focus1===true}">
-  <div class="input-group-prepend">
+            </div>
+            <input type="text" name="name" class="form-control input" placeholder="Name" (focus)="focus=true" (blur)="focus=false" formControlName="name">
+        </div>
+    </div>
+    <div class="field">
+        <div class="input-group input-lg" [ngClass]="{'input-group-focus':focus1===true}">
+            <div class="input-group-prepend">
                       <span class="input-group-text">
                             <i class="now-ui-icons ui-1_email-85"></i>
                       </span>
-  </div>
-  <input type="text" class="form-control" placeholder="E-Mail" (focus)="focus1=true" (blur)="focus1=false">
-</div>
-<div class="textarea-container">
-    <textarea class="form-control" name="name" rows="4" cols="80"
-              placeholder="Schreibe uns deine Nachricht...."></textarea>
-</div>
-<div class="checkbox-container">
-  <div class="form-check">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox">
-      <span class="form-check-sign"></span>
-      Sie erklären sich damit einverstanden, dass Ihre Daten zur Bearbeitung Ihres Anliegens verwendet werden. Weitere Information und Widerrufshinwise finden Sie in der
-      <a href="/datenschutz">Datenschutzerklärung</a>.
-    </label>
-  </div>
-</div>
-<div class="send-button">
-  <a href="" class="btn btn-primary btn-round btn-block btn-lg">Nachricht abschicken</a>
-</div>
+            </div>
+            <input type="email" name="email" class="form-control input" placeholder="E-Mail" (focus)="focus1=true" (blur)="focus1=false" formControlName="email">
+        </div>
+    </div>
+    <!-- message -->
+    <div class="field">
+        <div class="textarea-container">
+    <textarea class="form-control textarea" name="message" rows="4" cols="80"
+              placeholder="Schreibe uns deine Nachricht...." formControlName="message"></textarea>
+        </div>
+    </div>
+    <div class="checkbox-container">
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">
+                <span class="form-check-sign"></span>
+                Sie erklären sich damit einverstanden, dass Ihre Daten zur Bearbeitung Ihres Anliegens verwendet werden. Weitere Information und Widerrufshinwise finden Sie in der
+                <a href="/datenschutz">Datenschutzerklärung</a>.
+            </label>
+        </div>
+    </div>
+    <button class="send-button" type="submit" class="btn btn-primary btn-round btn-block btn-lg"  [disabled]="form.invalid">
+        Nachricht abschicken
+    </button>
+</form>

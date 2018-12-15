@@ -20,9 +20,8 @@
                 background-color: $transparent-bg;
             }
 
-            &.active{
-                border: 1px solid $default-color;
-                border-radius: 30px;
+            &.active img{
+                box-shadow: blue 1px 2px 4px 1px;
             }
 
             i.now-ui-icons{

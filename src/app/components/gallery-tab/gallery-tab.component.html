@@ -9,7 +9,8 @@
         <div class="col-md-12 ml-auto mr-auto">
           <div class="row collections">
             <div class="col-md-3 gallery-image" *ngFor="let image of tab.images, index as i">
-              <img [src]="image.thumb" alt="" class="img-raised" (click)="openModal(content, image)">
+              <img *ngIf="image.thumb" [src]="image.thumb" alt="" class="img-raised" (click)="openModal(content, image)">
+              <p *ngIf="!image.thumb">{{image.caption}}</p>
             </div>
           </div>
         </div>

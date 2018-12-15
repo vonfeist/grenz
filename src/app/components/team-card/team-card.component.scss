@@ -1,4 +1,13 @@
 
 img {
-  border-radius: 50%;
+  border-radius: 20%;
+  margin-bottom: 10px;
+}
+
+.nav-bar > .nav-item > .nav-link.active {
+  border: none;
+
+  img {
+    box-shadow: blue 1px 2px 4px 1px;
+  }
 }

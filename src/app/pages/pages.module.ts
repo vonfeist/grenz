@@ -1,11 +1,10 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {NouisliderModule} from 'ng2-nouislider';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {JwBootstrapSwitchNg2Module} from 'jw-bootstrap-switch-ng2';
 
-import {LoginComponent} from './login/login.component';
 import {PagesComponent} from './pages.component';
 
 import {TeamCardComponent} from '../components/team-card/team-card.component';
@@ -25,13 +24,13 @@ import {NewsBlogComponent} from '../components/news-blog/news-blog.component';
 @NgModule({
     imports: [
         CommonModule,
+        ReactiveFormsModule,
         FormsModule,
         NgbModule,
         NouisliderModule,
         JwBootstrapSwitchNg2Module,
     ],
     declarations: [
-        LoginComponent,
         PagesComponent,
         TeamCardComponent,
         TeamPageComponent,

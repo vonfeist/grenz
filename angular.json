@@ -121,6 +121,125 @@
           }
         }
       }
+    },
+    "friseur-grenz": {
+      "root": "projects/friseur-grenz/",
+      "sourceRoot": "projects/friseur-grenz/src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/friseur-grenz",
+            "index": "projects/friseur-grenz/src/index.html",
+            "main": "projects/friseur-grenz/src/main.ts",
+            "polyfills": "projects/friseur-grenz/src/polyfills.ts",
+            "tsConfig": "projects/friseur-grenz/tsconfig.app.json",
+            "assets": [
+              "projects/friseur-grenz/src/favicon.ico",
+              "projects/friseur-grenz/src/assets"
+            ],
+            "styles": [
+              "projects/friseur-grenz/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/friseur-grenz/src/environments/environment.ts",
+                  "with": "projects/friseur-grenz/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "friseur-grenz:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "friseur-grenz:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "friseur-grenz:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/friseur-grenz/src/test.ts",
+            "polyfills": "projects/friseur-grenz/src/polyfills.ts",
+            "tsConfig": "projects/friseur-grenz/tsconfig.spec.json",
+            "karmaConfig": "projects/friseur-grenz/karma.conf.js",
+            "styles": [
+              "projects/friseur-grenz/src/styles.css"
+            ],
+            "scripts": [],
+            "assets": [
+              "projects/friseur-grenz/src/favicon.ico",
+              "projects/friseur-grenz/src/assets"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/friseur-grenz/tsconfig.app.json",
+              "projects/friseur-grenz/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "friseur-grenz-e2e": {
+      "root": "projects/friseur-grenz-e2e/",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "projects/friseur-grenz-e2e/protractor.conf.js",
+            "devServerTarget": "friseur-grenz:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "friseur-grenz:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "projects/friseur-grenz-e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "now-ui-kit-angular",

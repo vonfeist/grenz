@@ -9,22 +9,22 @@
   {
     "id": "2",
     "name": "Josefin Jaskula",
-    "image": "assets/img/team/josy.png",
+    "image": "assets/img/team/josi_center.jpg",
     "position": "Unser großes Multitalent",
     "text": "Neben Herrenhaarschnitten, Dauerwellen und Farbveränderungen kann Josie auch Haarverlängerungen einarbeiten, mit der heißen Schere arbeiten und beseitigt Spliss. Außerdem hat sie ein Händchen für die kleinsten Friseurbesucher. Sie ist quasi unser kleines Multitalent. "
   },
   {
     "id": "3",
-    "name": "Melanie Kressin",
-    "image": "/assets/img/team/melanie.png",
-    "position": "Powerfrau mit viel Herz",
-    "text": "Sie kreiert tolle Haarfarben mit und ohne Highlights sowie Strähnen in verschiedensten Techniken. Herrenhaarschnitte (auch Bärte) sowie extreme Sidecut-Varianten oder ausrasierte Scheitel gehören zu ihrem Angebot. Also für jeden das Passende. Auch Kinder und Teenies werden von ihr sehr einfühlsam beraten und bedient."
+    "name": "Claudia Nitzschke",
+    "image": "/assets/img/team/azubi.jpg",
+    "position": "Unsere Azubine",
+    "text": "Sie ist seit 2016 bei uns und ist mittlerweile im dritten Lehrjahr, also mittlerweile ein starkes Mitglied unseres Teams. Insbesondere Hochsteckfrisuren und Flechtelemente gehören zu ihrem Spezialgebiet."
   },
   {
     "id": "4",
-    "name": "Claudia Nitzschke",
-    "image": "/assets/img/team/claudia.jpg",
-    "position": "Unsere Azubine",
-    "text": "Sie ist seit 2016 bei uns und ist mittlerweile im dritten Lehrjahr, also mittlerweile ein starkes Mitglied unseres Teams. Insbesondere Hochsteckfrisuren und Flechtelemente gehören zu ihrem Spezialgebiet."
+    "name": "Melanie Kressin",
+    "image": "/assets/img/team/melanie.jpg",
+    "position": "Powerfrau mit viel Herz",
+    "text": "Sie kreiert tolle Haarfarben mit und ohne Highlights sowie Strähnen in verschiedensten Techniken. Herrenhaarschnitte (auch Bärte) sowie extreme Sidecut-Varianten oder ausrasierte Scheitel gehören zu ihrem Angebot. Also für jeden das Passende. Auch Kinder und Teenies werden von ihr sehr einfühlsam beraten und bedient."
   }
 ]

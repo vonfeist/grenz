@@ -3,7 +3,7 @@ import 'mousetrap';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'; // this is needed!
 import {NgModule} from '@angular/core';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {RouterModule} from '@angular/router';
 import {AppRoutingModule} from './app.routing';
@@ -16,7 +16,14 @@ import {FooterComponent} from './shared/footer/footer.component';
 import {JsonReaderService} from './services/json-reader.service';
 import {HttpClientModule} from '@angular/common/http';
 import {ModalGalleryModule} from 'angular-modal-gallery';
+import {environment} from '../environments/environment';
 
+import {AngularFireModule} from 'angularfire2';
+// for AngularFireDatabase
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+// for AngularFireAuth
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireAuth } from 'angularfire2/auth';
 
 @NgModule({
     declarations: [
@@ -28,12 +35,16 @@ import {ModalGalleryModule} from 'angular-modal-gallery';
         BrowserAnimationsModule,
         NgbModule.forRoot(),
         FormsModule,
+        ReactiveFormsModule,
         RouterModule,
         AppRoutingModule,
         ComponentsModule,
         PagesModule,
         HttpClientModule,
         ModalGalleryModule.forRoot(),
+        AngularFireModule.initializeApp(environment.firebase),
+        AngularFireDatabaseModule,
+        AngularFireAuthModule
     ],
     providers: [JsonReaderService],
     bootstrap: [AppComponent]

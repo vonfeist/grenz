@@ -201,67 +201,57 @@
     "id": "Salon"
   },
   {
-    "title": "Kurzhaarfrisuren",
+    "title": "Haarschnitte",
     "images": [
       {
-        "caption": "Salon 1",
-        "src": "assets/img/bg1.jpg",
-        "thumb": "assets/img/bg1.jpg"
-      },
-      {
-        "caption": "Salon 2",
-        "src": "assets/img/bg8.jpg",
-        "thumb": "assets/img/bg8.jpg"
+        "caption": "Noch im Aufbau"
       }
     ],
-    "id": "Lang"
+    "id": "schnitte"
   },
   {
-    "title": "Kurzhaarfrisuren",
+    "title": "Haarfarben",
     "images": [
       {
-        "caption": "Salon 1",
-        "src": "assets/img/bg1.jpg",
-        "thumb": "assets/img/bg1.jpg"
-      },
-      {
-        "caption": "Salon 2",
-        "src": "assets/img/bg8.jpg",
-        "thumb": "assets/img/bg8.jpg"
+        "caption": "Noch im Aufbau"
       }
     ],
-    "id": "Hoch"
+    "id": "farbe"
   },
   {
-    "title": "Kurzhaarfrisuren",
+    "title": "Strähnchen",
     "images": [
       {
-        "caption": "Salon 1",
-        "src": "assets/img/bg1.jpg",
-        "thumb": "assets/img/bg1.jpg"
-      },
-      {
-        "caption": "Salon 2",
-        "src": "assets/img/bg8.jpg",
-        "thumb": "assets/img/bg8.jpg"
+        "caption": "Noch im Aufbau"
       }
     ],
-    "id": "Runter"
+    "id": "straehnchen"
   },
   {
-    "title": "Kurzhaarfrisuren",
+    "title": "Umformung",
     "images": [
       {
-        "caption": "Salon 1",
-        "src": "assets/img/bg1.jpg",
-        "thumb": "assets/img/bg1.jpg"
-      },
-      {
-        "caption": "Salon 2",
-        "src": "assets/img/bg8.jpg",
-        "thumb": "assets/img/bg8.jpg"
+        "caption": "Noch im Aufbau"
       }
     ],
-    "id": "Links"
+    "id": "umformung"
+  },
+  {
+    "title": "Haarverlängerungen",
+    "images": [
+      {
+        "caption": "Noch im Aufbau"
+      }
+    ],
+    "id": "lang"
+  },
+  {
+    "title": "Zusatzleistungen",
+    "images": [
+      {
+        "caption": "Noch im Aufbau"
+      }
+    ],
+    "id": "zusatz"
   }
 ]
