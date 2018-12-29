@@ -30,7 +30,7 @@ import {AgmCoreModule, GoogleMapsAPIWrapper} from '@agm/core';
         JwBootstrapSwitchNg2Module,
         NgbModalModule,
         AgmCoreModule.forRoot({
-            apiKey: 'AIzaSyAR7CyLsAeCwZLfgcaz1BGJR3UmRFKizbc'
+            apiKey: 'AIzaSyC4wzSeXQ8kFRaZcJBAXNhJmIT5kW8kT_k'
         })
     ],
     declarations: [

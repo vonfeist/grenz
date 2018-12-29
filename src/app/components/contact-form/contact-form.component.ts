@@ -1,44 +1,47 @@
-import { Component, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import { AngularFireDatabase, AngularFireList } from '@angular/fire/database';
+import {AngularFireDatabase, AngularFireList} from '@angular/fire/database';
 
 @Component({
-  selector: 'app-contact-form',
-  templateUrl: './contact-form.component.html',
-  styleUrls: ['./contact-form.component.scss']
+    selector: 'app-contact-form',
+    templateUrl: './contact-form.component.html',
+    styleUrls: ['./contact-form.component.scss']
 })
 export class ContactFormComponent implements OnInit {
-  form: FormGroup;
-  itemsRef: AngularFireList<any>;
+    form: FormGroup;
+    itemsRef: AngularFireList<any>;
 
-  constructor( private fb: FormBuilder, private af: AngularFireDatabase ) {
-    this.createForm();
-    this.itemsRef = this.af.list('/messages');
+    focus = false;
+    focus1 = false;
 
-  }
+    constructor(private fb: FormBuilder, private af: AngularFireDatabase) {
+        this.createForm();
+        this.itemsRef = this.af.list('/messages');
 
-  createForm() {
-    this.form = this.fb.group({
-        name: ['', Validators.required],
-        email: ['', Validators.required],
-        message: ['', Validators.required],
-    });
-  }
+    }
 
-  ngOnInit() {
-  }
+    createForm() {
+        this.form = this.fb.group({
+            name: ['', Validators.required],
+            email: ['', Validators.required],
+            message: ['', Validators.required],
+        });
+    }
 
-  processForm() {
-      const {name, email, message} = this.form.value;
-      const date = Date();
-      const html = `
+    ngOnInit() {
+    }
+
+    processForm() {
+        const {name, email, message} = this.form.value;
+        const date = Date();
+        const html = `
       <div>Von: ${name}</div>
       <div>Email: <a href="mailto:${email}">${email}</a></div>
       <div>Datum: ${date}</div>
       <div>Nacricht: ${message}</div>
     `;
-      let formRequest = { name, email, message, date, html };
-      this.itemsRef.push(formRequest);
-      this.form.reset();
-  }
+        let formRequest = {name, email, message, date, html};
+        this.itemsRef.push(formRequest);
+        this.form.reset();
+    }
 }
