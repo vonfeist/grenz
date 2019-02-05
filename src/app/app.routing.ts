@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule,} from '@angular/common';
 import {BrowserModule} from '@angular/platform-browser';
-import {Routes, RouterModule} from '@angular/router';
+import {Routes, RouterModule, ExtraOptions} from '@angular/router';
 
 import {ComponentsComponent} from './components/components.component';
 import {NucleoiconsComponent} from './components/nucleoicons/nucleoicons.component';
@@ -12,6 +12,13 @@ import {DatenschutzComponent} from './pages/datenschutz/datenschutz.component';
 import {GalleryComponent} from './pages/gallery/gallery.component';
 import {OffersComponent} from './pages/offers/offers.component';
 import {ContactComponent} from './pages/contact/contact.component';
+
+
+const routerOptions: ExtraOptions = {
+    useHash: false,
+    anchorScrolling: 'enabled',
+    enableTracing: true,
+};
 
 const routes: Routes = [
   {path: '', redirectTo: 'index', pathMatch: 'full'},
@@ -32,7 +39,7 @@ const routes: Routes = [
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, routerOptions)
   ],
   exports: [],
 })

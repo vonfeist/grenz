@@ -204,7 +204,79 @@
     "title": "Haarschnitte",
     "images": [
       {
-        "caption": "Noch im Aufbau"
+        "caption": "Haarschnitte 1",
+        "src": "assets/img/gallery/schnitte/schnitt1.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt1.jpg"
+      },
+      {
+        "caption": "Haarschnitte 2",
+        "src": "assets/img/gallery/schnitte/schnitt2.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt2.jpg"
+      },
+      {
+        "caption": "Haarschnitt 3",
+        "src": "assets/img/gallery/schnitte/schnitt3.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt3.jpg"
+      },
+      {
+        "caption": "Haarschnitt 4",
+        "src": "assets/img/gallery/schnitte/schnitt4.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt4.jpg"
+      },
+      {
+        "caption": "Haarschnitt 5",
+        "src": "assets/img/gallery/schnitte/schnitt5.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt5.jpg"
+      },
+      {
+        "caption": "Haarschnitt 6",
+        "src": "assets/img/gallery/schnitte/schnitt6.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt6.jpg"
+      },
+      {
+        "caption": "Haarschnitt 7",
+        "src": "assets/img/gallery/schnitte/schnitt7.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt7.jpg"
+      },
+      {
+        "caption": "Haarschnitte 8",
+        "src": "assets/img/gallery/schnitte/schnitt8.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt8.jpg"
+      },
+      {
+        "caption": "Haarschnitte 9",
+        "src": "assets/img/gallery/schnitte/schnitt9.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt9.jpg"
+      },
+      {
+        "caption": "Haarschnitt 10",
+        "src": "assets/img/gallery/schnitte/schnitt10.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt10.jpg"
+      },
+      {
+        "caption": "Haarschnitt 11",
+        "src": "assets/img/gallery/schnitte/schnitt11.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt11.jpg"
+      },
+      {
+        "caption": "Haarschnitt 12",
+        "src": "assets/img/gallery/schnitte/schnitt12.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt12.jpg"
+      },
+      {
+        "caption": "Haarschnitt 13",
+        "src": "assets/img/gallery/schnitte/schnitt13.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt13.jpg"
+      },
+      {
+        "caption": "Haarschnitt 14",
+        "src": "assets/img/gallery/schnitte/schnitt14.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt14.jpg"
+      },
+      {
+        "caption": "Haarschnitt 15",
+        "src": "assets/img/gallery/schnitte/schnitt15.jpg",
+        "thumb": "assets/img/gallery/schnitte/schnitt15.jpg"
       }
     ],
     "id": "schnitte"
@@ -213,7 +285,142 @@
     "title": "Haarfarben",
     "images": [
       {
-        "caption": "Noch im Aufbau"
+        "caption": "Haarfarben 1",
+        "src": "assets/img/gallery/farbe/farbe1.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe1.jpg"
+      },
+      {
+        "caption": "Haarfarben 2",
+        "src": "assets/img/gallery/farbe/farbe2.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe2.jpg"
+      },
+      {
+        "caption": "Haarfarben 3",
+        "src": "assets/img/gallery/farbe/farbe3.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe3.jpg"
+      },
+      {
+        "caption": "Haarfarben 4",
+        "src": "assets/img/gallery/farbe/farbe4.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe4.jpg"
+      },
+      {
+        "caption": "Haarfarben 5",
+        "src": "assets/img/gallery/farbe/farbe5.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe5.jpg"
+      },
+      {
+        "caption": "Haarfarben 6",
+        "src": "assets/img/gallery/farbe/farbe6.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe6.jpg"
+      }, {
+        "caption": "Haarfarben 7",
+        "src": "assets/img/gallery/farbe/farbe7.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe7.jpg"
+      }, {
+        "caption": "Haarfarben 8",
+        "src": "assets/img/gallery/farbe/farbe8.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe8.jpg"
+      }, {
+        "caption": "Haarfarben 9",
+        "src": "assets/img/gallery/farbe/farbe9.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe9.jpg"
+      },
+      {
+        "caption": "Haarfarben 10",
+        "src": "assets/img/gallery/farbe/farbe10.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe10.jpg"
+      }, {
+        "caption": "Haarfarben 11",
+        "src": "assets/img/gallery/farbe/farbe11.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe11.jpg"
+      }, {
+        "caption": "Haarfarben 12",
+        "src": "assets/img/gallery/farbe/farbe12.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe12.jpg"
+      },
+      {
+        "caption": "Haarfarben 13",
+        "src": "assets/img/gallery/farbe/farbe13.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe13.jpg"
+      },
+      {
+        "caption": "Haarfarben 14",
+        "src": "assets/img/gallery/farbe/farbe14.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe14.jpg"
+      }, {
+        "caption": "Haarfarben 15",
+        "src": "assets/img/gallery/farbe/farbe15.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe15.jpg"
+      }, {
+        "caption": "Haarfarben 16",
+        "src": "assets/img/gallery/farbe/farbe16.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe16.jpg"
+      },
+      {
+        "caption": "Haarfarben 17",
+        "src": "assets/img/gallery/farbe/farbe17.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe17.jpg"
+      },
+      {
+        "caption": "Haarfarben 18",
+        "src": "assets/img/gallery/farbe/farbe18.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe18.jpg"
+      },
+      {
+        "caption": "Haarfarben 19",
+        "src": "assets/img/gallery/farbe/farbe19.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe19.jpg"
+      },
+      {
+        "caption": "Haarfarben 20",
+        "src": "assets/img/gallery/farbe/farbe20.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe20.jpg"
+      },
+      {
+        "caption": "Haarfarben 21",
+        "src": "assets/img/gallery/farbe/farbe21.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe21.jpg"
+      },
+      {
+        "caption": "Haarfarben 22",
+        "src": "assets/img/gallery/farbe/farbe22.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe22.jpg"
+      },
+      {
+        "caption": "Haarfarben 23",
+        "src": "assets/img/gallery/farbe/farbe23.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe23.jpg"
+      },
+      {
+        "caption": "Haarfarben 24",
+        "src": "assets/img/gallery/farbe/farbe24.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe24.jpg"
+      },
+      {
+        "caption": "Haarfarben 25",
+        "src": "assets/img/gallery/farbe/farbe25.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe25.jpg"
+      },
+      {
+        "caption": "Haarfarben 26",
+        "src": "assets/img/gallery/farbe/farbe26.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe26.jpg"
+      },
+      {
+        "caption": "Haarfarben 27",
+        "src": "assets/img/gallery/farbe/farbe27.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe27.jpg"
+      },
+      {
+        "caption": "Haarfarben 28",
+        "src": "assets/img/gallery/farbe/farbe28.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe28.jpg"
+      },
+      {
+        "caption": "Haarfarben 29",
+        "src": "assets/img/gallery/farbe/farbe29.jpg",
+        "thumb": "assets/img/gallery/farbe/farbe29.jpg"
       }
     ],
     "id": "farbe"
@@ -222,7 +429,14 @@
     "title": "Strähnchen",
     "images": [
       {
-        "caption": "Noch im Aufbau"
+        "caption": "Strähnchen 29",
+        "src": "assets/img/gallery/straehnen/straehnen1.jpg",
+        "thumb": "assets/img/gallery/straehnen/straehnen1.jpg"
+      },
+      {
+        "caption": "Strähnchen 29",
+        "src": "assets/img/gallery/straehnen/straehnen2.jpg",
+        "thumb": "assets/img/gallery/straehnen/straehnen2.jpg"
       }
     ],
     "id": "straehnchen"
@@ -240,7 +454,59 @@
     "title": "Haarverlängerungen",
     "images": [
       {
-        "caption": "Noch im Aufbau"
+        "caption": "Haarverlängerungen 1",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung1.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung1.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 2",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung2.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung2.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 3",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung3.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung3.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 4",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung4.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung4.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 5",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung5.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung5.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 6",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung6.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung6.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 7",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung7.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung7.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 8",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung8.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung8.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 9",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung9.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung9.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 10",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung10.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung10.jpg"
+      },
+      {
+        "caption": "Haarverlängerungen 11",
+        "src": "assets/img/gallery/verlaengerungen/verlaengerung11.jpg",
+        "thumb": "assets/img/gallery/verlaengerungen/verlaengerung11.jpg"
       }
     ],
     "id": "lang"
@@ -249,7 +515,118 @@
     "title": "Zusatzleistungen",
     "images": [
       {
-        "caption": "Noch im Aufbau"
+        "caption": "Zusatzleistungen 1",
+        "src": "assets/img/gallery/zusatz/zusatz1.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz1.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 2",
+        "src": "assets/img/gallery/zusatz/zusatz2.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz2.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 3",
+        "src": "assets/img/gallery/zusatz/zusatz3.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz3.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 4",
+        "src": "assets/img/gallery/zusatz/zusatz4.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz4.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 5",
+        "src": "assets/img/gallery/zusatz/zusatz5.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz5.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 6",
+        "src": "assets/img/gallery/zusatz/zusatz6.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz6.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 7",
+        "src": "assets/img/gallery/zusatz/zusatz7.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz7.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 8",
+        "src": "assets/img/gallery/zusatz/zusatz8.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz8.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 9",
+        "src": "assets/img/gallery/zusatz/zusatz9.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz9.jpg"
+      },{
+        "caption": "Zusatzleistungen 10",
+        "src": "assets/img/gallery/zusatz/zusatz10.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz10.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 11",
+        "src": "assets/img/gallery/zusatz/zusatz11.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz11.jpg"
+      },{
+        "caption": "Zusatzleistungen 12",
+        "src": "assets/img/gallery/zusatz/zusatz12.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz12.jpg"
+      },{
+        "caption": "Zusatzleistungen 13",
+        "src": "assets/img/gallery/zusatz/zusatz13.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz13.jpg"
+      },{
+        "caption": "Zusatzleistungen 14",
+        "src": "assets/img/gallery/zusatz/zusatz14.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz14.jpg"
+      },{
+        "caption": "Zusatzleistungen 15",
+        "src": "assets/img/gallery/zusatz/zusatz15.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz15.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 16",
+        "src": "assets/img/gallery/zusatz/zusatz16.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz16.jpg"
+      },{
+        "caption": "Zusatzleistungen 17",
+        "src": "assets/img/gallery/zusatz/zusatz17.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz17.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 18",
+        "src": "assets/img/gallery/zusatz/zusatz18.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz18.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 19",
+        "src": "assets/img/gallery/zusatz/zusatz19.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz19.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 20",
+        "src": "assets/img/gallery/zusatz/zusatz20.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz20.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 21",
+        "src": "assets/img/gallery/zusatz/zusatz21.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz21.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 22",
+        "src": "assets/img/gallery/zusatz/zusatz22.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz22.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 23",
+        "src": "assets/img/gallery/zusatz/zusatz23.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz23.jpg"
+      },
+      {
+        "caption": "Zusatzleistungen 24",
+        "src": "assets/img/gallery/zusatz/zusatz24.jpg",
+        "thumb": "assets/img/gallery/zusatz/zusatz24.jpg"
       }
     ],
     "id": "zusatz"

@@ -9,7 +9,7 @@
       "Splisshaarschnitte (auf Wunsch auch mit heißer Schere)"
     ],
     "linkText": "Zu unseren Haarschnitte",
-    "links": "gallerie#schnitte",
+    "links": "schnitte",
     "header": "Haarschnitte"
   },
   {
@@ -22,7 +22,7 @@
       "Glossing (Auffrischung von Coloration, Optimierung der Haarfarbe)"
     ],
     "linkText": "Zu unseren Färbungen",
-    "links": "gallerie#farbe",
+    "links": "farbe",
     "header": "Haarfarben"
   },
   {
@@ -36,7 +36,7 @@
       "Strähnen mit dem Colorboard"
     ],
     "linkText": "Zu unseren Farbkreationen",
-    "links": "gallerie#straehnchen",
+    "links": "straehnchen",
     "header": "Strähnchen-Techniken"
   },
   {
@@ -47,7 +47,7 @@
       "Spezialdauerwelle (Neutralwelle)"
     ],
     "linkText": "Zu unseren Umformungen",
-    "links": "gallerie#umformung",
+    "links": "umformung",
     "header": "Umformung"
   },
   {
@@ -58,7 +58,7 @@
       "Multisonic System"
     ],
     "linkText": "Zu unseren Haarverlängerungen",
-    "links": "gallerie#lang",
+    "links": "lang",
     "header": "Haarverlängerungen"
   },
   {
@@ -72,7 +72,7 @@
       "Steckfrisuren (Jugendweihe, Hochzeit, Abiball) uvm."
     ],
     "linkText": "Zu unseren Zusatzleistungen",
-    "links": "gallerie#zusatz",
+    "links": "zusatz",
     "header": "Zusatzleistungen"
   }
 ]
