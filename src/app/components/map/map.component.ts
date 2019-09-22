@@ -40,7 +40,7 @@ export class MapComponent implements OnInit {
         zoom: 18
     };
 
-    @ViewChild(AgmMap) map: AgmMap;
+    @ViewChild(AgmMap, { static: true }) map: AgmMap;
 
     constructor(public mapsApiLoader: MapsAPILoader,
                 private zone: NgZone,

@@ -10,7 +10,7 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 })
 export class SliderComponent implements OnInit {
 
-  @ViewChild('carousel') carousel: any;
+  @ViewChild('carousel', { static: true }) carousel: any;
 
   constructor(carouselConfig: NgbCarouselConfig) {
     carouselConfig.keyboard = true;
